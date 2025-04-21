@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-template-rows: repeat(3, 0fr);
+}
+
+#square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
